@@ -1,0 +1,5 @@
+Minimum cost in testcase 1: 99
+Minimum cost in testcase 2: 73
+Minimum cost in testcase 3: 398
+Minimum cost in testcase 4: 174
+Minimum cost in testcase 5: 2051

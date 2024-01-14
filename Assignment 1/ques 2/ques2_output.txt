@@ -1,0 +1,5 @@
+Maximum total value in testcase 1: 281
+Maximum total value in testcase 2: 2036
+Maximum total value in testcase 3: 963
+Maximum total value in testcase 4: 135642
+Maximum total value in testcase 5: 169914

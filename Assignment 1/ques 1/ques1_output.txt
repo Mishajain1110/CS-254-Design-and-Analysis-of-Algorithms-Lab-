@@ -1,0 +1,5 @@
+Maximum sum in testcase 1: 795
+Maximum sum in testcase 2: 177
+Maximum sum in testcase 3: 1996
+Maximum sum in testcase 4: 199973
+Maximum sum in testcase 5: 1999988
