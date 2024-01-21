@@ -1,0 +1,5 @@
+Output of testcase 1: minima: 11 second_minima: 26
+Output of testcase 2: minima: 3 second_minima: 14
+Output of testcase 3: minima: 2 second_minima: 2
+Output of testcase 4: minima: 8 second_minima: 17
+Output of testcase 5: minima: 1 second_minima: 2
