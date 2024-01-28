@@ -34,16 +34,6 @@ void matrix_Addition(vector<vector<int>> A, vector<vector<int>> B, vector<vector
     return;
 }
 
-void matrix_Subtraction(vector<vector<int>> A, vector<vector<int>> B, vector<vector<int>>& ans, int row, int col, int len, int width){
-
-    for(int i = row; i < (row + len); i++){
-        for(int j = col; j < (col+width); j++){
-            ans[i][j] = A[i][j] - B[i][j];
-        }
-    }
-    return;
-}
-
 vector<vector<int>> matrix_Multiplication(vector<vector<int>> A,vector<vector<int>> B, int row, int col, int row1, int col1, int row2, int col2, int len, vector<vector<int>>& result){
     if(len == 1){
         result[row][col] = A[row1][col1] * B[row2][col2];
