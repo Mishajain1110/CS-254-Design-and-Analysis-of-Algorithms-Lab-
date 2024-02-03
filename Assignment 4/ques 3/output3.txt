@@ -1,0 +1,5 @@
+Output of testcase 1: 287
+Output of testcase 2: 1251
+Output of testcase 3: 3206
+Output of testcase 4: 8408
+Output of testcase 5: 47757
