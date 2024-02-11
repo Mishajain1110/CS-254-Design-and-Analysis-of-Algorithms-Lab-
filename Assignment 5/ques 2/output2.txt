@@ -1,0 +1,5 @@
+Output of testcase 1: 8
+Output of testcase 2: 24
+Output of testcase 3: 1
+Output of testcase 4: 4
+Output of testcase 5: 3

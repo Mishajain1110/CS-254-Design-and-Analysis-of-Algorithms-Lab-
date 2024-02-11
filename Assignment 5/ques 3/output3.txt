@@ -1,0 +1,5 @@
+Output of testcase 1: YES
+Output of testcase 2: NO
+Output of testcase 3: YES
+Output of testcase 4: NO
+Output of testcase 5: NO
