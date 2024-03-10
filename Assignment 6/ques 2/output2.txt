@@ -1,0 +1,10 @@
+Output of testcase 1: 0
+Output of testcase 2: 2
+Output of testcase 3: 2
+Output of testcase 4: 3
+Output of testcase 5: 3
+Output of testcase 6: 2
+Output of testcase 7: 1
+Output of testcase 8: 3
+Output of testcase 9: 4
+Output of testcase 10: 2

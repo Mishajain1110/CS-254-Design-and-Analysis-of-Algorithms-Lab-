@@ -1,0 +1,10 @@
+Output of testcase 1: NO
+Output of testcase 2: YES
+Output of testcase 3: NO
+Output of testcase 4: YES
+Output of testcase 5: NO
+Output of testcase 6: YES
+Output of testcase 7: YES
+Output of testcase 8: NO
+Output of testcase 9: YES
+Output of testcase 10: YES
