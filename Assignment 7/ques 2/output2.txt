@@ -1,0 +1,35 @@
+Output(using greedy approach) of testcase 1
+Maximum Profit: 152
+Maximum profit job sequence: 4 1 3 
+Correct output of testcase 1
+Maximum Profit: 152
+Maximum profit job sequence: 4 1 3 
+
+Output(using greedy approach) of testcase 2
+Maximum Profit: 4274
+Maximum profit job sequence: 10 19 3 8 11 5 14 13 2 16 20 6 4 9 12 18 15 7 17 
+Correct output of testcase 2
+Maximum Profit: 4274
+Maximum profit job sequence: 10 19 3 8 11 5 14 13 2 16 20 6 4 9 12 18 15 7 17 
+
+Output(using greedy approach) of testcase 3
+Maximum Profit: 5301
+Maximum profit job sequence: 11 7 29 26 5 12 19 46 1 39 9 10 42 18 17 33 36 23 6 13 
+Correct output of testcase 3
+Maximum Profit: 5301
+Maximum profit job sequence: 11 7 29 26 5 12 19 46 1 39 9 10 42 18 17 33 36 23 6 13 
+
+Output(using greedy approach) of testcase 4
+Maximum Profit: 5638
+Maximum profit job sequence: 22 19 26 68 62 80 49 63 83 94 59 2 84 92 34 79 29 40 18 50 
+Correct output of testcase 4
+Maximum Profit: 5638
+Maximum profit job sequence: 22 10 26 68 62 80 49 63 83 94 59 2 84 92 34 79 29 40 18 50 
+
+Output(using greedy approach) of testcase 5
+Maximum Profit: 9786
+Maximum profit job sequence: 243 531 39 344 785 777 275 50 259 826 271 913 61 298 518 743 33 694 262 472 540 972 794 923 122 890 124 308 896 201 88 884 992 284 260 26 351 922 317 713 921 269 639 956 588 668 726 767 425 988 
+Correct output of testcase 5
+Maximum Profit: 9786
+Maximum profit job sequence: 243 531 39 344 785 777 275 50 259 826 271 913 61 298 518 743 33 694 262 472 540 972 794 923 122 890 124 308 896 201 88 884 992 284 260 26 351 922 317 713 921 269 639 956 588 668 726 767 425 988 
+
