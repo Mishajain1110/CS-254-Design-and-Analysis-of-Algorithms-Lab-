@@ -3,18 +3,10 @@ MST weight: 30
 2nd MST weight: 31
 
 Output of testcase 2
-MST weight: 5
-2nd MST weight: 5
-
-Output of testcase 3
 MST weight: 42
 2nd MST weight: 44
 
-Output of testcase 4
-MST weight: 2933
-2nd MST weight: 2933
-
-Output of testcase 5
+Output of testcase 3
 MST weight: 4940
 2nd MST weight: 5092
 

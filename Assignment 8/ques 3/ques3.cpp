@@ -2,15 +2,16 @@
 #include<vector>
 #include<algorithm>
 #include<limits.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 vector<int> present;
 int edge;
-int parent[1000001];
+int parent[100005];
 
 struct singleEdge{
     int source, destination, wt;
-} edges[1000001];
+} edges[100005];
 
 bool cmp(singleEdge a, singleEdge b){
     return a.wt < b.wt;
@@ -18,7 +19,7 @@ bool cmp(singleEdge a, singleEdge b){
 
 void makeSet(int n){
 
-    for(int i = 0; i <= n; i++){
+    for(int i = 0; i < n; i++){
         parent[i] = i;
     }
 }
@@ -60,24 +61,24 @@ int union2ndMST(int i, int sum){
 
 pair<int, int> secondMinimumSpanningTree(vector<vector<int>>& graphEdges, int v, int e){
     makeSet(v);
-
-    for(int i = 0; i < graphEdges.size(); i++){
+    int sum = 0;
+    for(int i = 0; i < e; i++){
         edges[i].source = graphEdges[i][0];
         edges[i].destination = graphEdges[i][1];
         edges[i].wt = graphEdges[i][2];
     }
 
     sort(edges, edges + e, cmp);
-    int sumMST = 0;
+    int sumMST;
 
     for(int i = 0; i < e; i++){
-        sumMST = unionMST(i, sumMST);
+        sum = unionMST(i, sum);
     }
-
+    sumMST = sum;
     int secMST = INT_MAX;
-    int sumSecMST = 0;
-
-    for(int j = 0; j < present.size(); j++){
+    sum = 0;
+    int j;
+    for(j = 0; j < present.size(); j++){
         makeSet(v);
         edge = 0;
 
@@ -85,18 +86,18 @@ pair<int, int> secondMinimumSpanningTree(vector<vector<int>>& graphEdges, int v,
             if(i == present[j]){
                 continue;
             }
-            sumSecMST = union2ndMST(i, sumSecMST);
+            sum = union2ndMST(i, sum);
         }
 
         if(edge != v - 1){
-            sumSecMST = 0;
+            sum = 0;
             continue;
         }
 
-        if(secMST > sumSecMST){
-            secMST = sumSecMST;
+        if(secMST > sum){
+            secMST = sum;
         }
-        sumSecMST = 0;
+        sum = 0;
     }
     
     return make_pair(sumMST, secMST);
@@ -122,7 +123,7 @@ int main(){
         }
 
         auto res = secondMinimumSpanningTree(gEdges, v, e);
-        cout << "Output of testcase " << 5 - t << endl;
+        cout << "Output of testcase " << 3 - t << endl;
         cout << "MST weight: " << res.first << endl;
         cout << "2nd MST weight: " << res.second;
         cout << endl << endl;
