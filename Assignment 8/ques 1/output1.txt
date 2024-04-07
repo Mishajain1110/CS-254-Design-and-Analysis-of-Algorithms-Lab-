@@ -1,0 +1,40 @@
+Output of testcase 1
+Maximum weight: 30
+Maximum spanning tree edges: (3, 4) (3, 1) (4, 2) (0, 3) 
+
+Output of testcase 2
+Maximum weight: 12
+Maximum spanning tree edges: (1, 2) (2, 3) (0, 1) 
+
+Output of testcase 3
+Maximum weight: 18
+Maximum spanning tree edges: (0, 1) (1, 2) (2, 3) (2, 4) 
+
+Output of testcase 4
+Maximum weight: 4
+Maximum spanning tree edges: (0, 1) 
+
+Output of testcase 5
+Maximum weight: 22135
+Maximum spanning tree edges: (0, 2) (6, 1) (4, 3) (3, 2) (5, 1) (1, 0) 
+
+Output of testcase 6
+Maximum weight: 60721
+Maximum spanning tree edges: (2, 4) (9, 7) (10, 9) (4, 14) (12, 9) (7, 2) (6, 1) (13, 0) (12, 5) (8, 3) (6, 13) (2, 1) (0, 8) (11, 5) 
+
+Output of testcase 7
+Maximum weight: 79589
+Maximum spanning tree edges: (11, 7) (2, 17) (0, 13) (17, 5) (2, 15) (6, 1) (1, 12) (0, 16) (12, 8) (1, 0) (0, 17) (7, 1) (15, 9) (9, 4) (3, 8) (6, 10) (18, 7) (14, 3) 
+
+Output of testcase 8
+Maximum weight: 31163
+Maximum spanning tree edges: (5, 2) (8, 1) (1, 7) (0, 8) (8, 6) (5, 3) (7, 3) (4, 3) 
+
+Output of testcase 9
+Maximum weight: 68505
+Maximum spanning tree edges: (7, 4) (4, 15) (3, 7) (13, 12) (13, 8) (3, 0) (2, 6) (12, 10) (8, 0) (5, 10) (11, 14) (14, 0) (0, 16) (16, 9) (2, 9) (13, 1) 
+
+Output of testcase 10
+Maximum weight: 21469
+Maximum spanning tree edges: (6, 0) (0, 1) (0, 2) (3, 6) (1, 4) (1, 5) 
+

@@ -1,0 +1,4 @@
+Output of testcase 1: 160
+Output of testcase 2: 56
+Output of testcase 3: not possible
+Output of testcase 4: 1
